@@ -1,0 +1,23 @@
+{
+    "name": "neilb/php",
+    "description": "a simple RESTful api",
+    "autoload": {
+        "psr-4": {
+            "Neilb\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "neil balmes"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.1.0"
+        }
+    },
+    "require": {
+        "php": ">=8.1.0", 
+        "firebase/php-jwt": "^6.10"
+    }
+}
